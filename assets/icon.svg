@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="iconOptiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <filter id="iconNeonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="200" height="200" rx="44" fill="#090D16" stroke="#1E293B" stroke-width="2"/>
+  
+  <!-- Outer Hexagonal Quantum Network -->
+  <path d="M 100 30 L 160 65 L 160 135 L 100 170 L 40 135 L 40 65 Z" 
+        fill="none" stroke="url(#iconOptiGrad)" stroke-width="4" stroke-linejoin="round"/>
+  
+  <!-- Inner Data Shell -->
+  <polygon points="100,60 135,80 135,120 100,140 65,120 65,80" 
+           fill="#0F172A" stroke="#38BDF8" stroke-width="2.5"/>
+           
+  <!-- Central Neural Pulse Core -->
+  <circle cx="100" cy="100" r="16" fill="url(#iconOptiGrad)" filter="url(#iconNeonGlow)" />
+  <circle cx="100" cy="100" r="7" fill="#FFFFFF" />
+
+  <!-- Decision Checkmark -->
+  <path d="M 88 100 L 96 108 L 114 90" fill="none" stroke="#090D16" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
