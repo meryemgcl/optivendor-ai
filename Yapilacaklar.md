@@ -27,10 +27,10 @@ OptiVendor.AI; dağınık ve farklı formatlarda (taranmış PDF, Excel, e-posta
   - [x] `OptiVendor-AI` klasör hiyerarşisi oluşturuldu (`assets/`, `docs/`, `prompts/`, `core/`, `web/`).
   - [x] Vektörel SVG marka varlıkları (`logo.svg`, `icon.svg`) dizine eklendi.
   - [x] `README.md` ve `Yapilacaklar.md` master dosyaları hazırlandı.
-- [ ] **1.2 Lovable & Frontend Tasarım Sistemi Kurulumu**
-  - [ ] Dark mode tabanlı, glassmorphism (`backdrop-blur-md`, subtle border glow `#3B82F6`) tasarım token'larının tanımlanması.
-  - [ ] İki panelli ana layout: Sol tarafta İnteraktif PDF/Belge Önizleyici, Sağ tarafta Akıllı Kıyaslama Matrisi.
-  - [ ] Sürükle-bırak (Drag & Drop) çoklu teklif yükleme alanı (PDF, XLSX, PNG/JPG).
+- [x] **1.2 Lovable & Frontend Tasarım Sistemi Kurulumu**
+  - [x] Dark mode tabanlı, glassmorphism (`backdrop-blur-md`, subtle border glow `#3B82F6`) tasarım token'larının tanımlanması.
+  - [x] İki panelli ana layout: Sol tarafta İnteraktif PDF/Belge Önizleyici, Sağ tarafta Akıllı Kıyaslama Matrisi.
+  - [x] Sürükle-bırak (Drag & Drop) çoklu teklif yükleme alanı (PDF, XLSX, PNG/JPG).
 - [ ] **1.3 Görsel Doğrulama (Visual Grounding) Mockup'ı**
   - [ ] Belge üzerindeki koordinatları (Bounding Boxes) temsil eden SVG/Canvas katmanının arayüze bağlanması.
   - [ ] Sağ paneldeki tablo satırına tıklandığında sol taraftaki PDF'in ilgili satırına otomatik kayma (smooth scroll & highlight).
